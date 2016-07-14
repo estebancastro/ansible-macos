@@ -3,13 +3,17 @@
 ## Requirements
 * [Ansible](https://github.com/ansible/ansible)
 
-## Installation
-1. [Install Ansible](http://docs.ansible.com/intro_installation.html)
-2. Ensure Apple's command line tools are installed `xcode-select --install`
-3. Clone this repository to your local drive
-4. Install required Ansible roles `ansible-galaxy install -r requirements.yml`
-
 ## Usage
+
+Ensure Apple's command line tools are installed
+```bash
+xcode-select --install
+```
+
+Install required Ansible roles
+```bash
+ansible-galaxy install -r requirements.yml
+```
 
 Run ansible playbook and enter your account password when prompted.
 ```bash
