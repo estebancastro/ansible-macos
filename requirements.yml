@@ -1,0 +1,5 @@
+# http://docs.ansible.com/ansible/galaxy.html
+
+- src: https://github.com/geerlingguy/ansible-role-homebrew.git
+  version: 1.4.1
+  name: geerlingguy.homebrew

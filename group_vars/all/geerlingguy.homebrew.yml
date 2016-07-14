@@ -1,0 +1,54 @@
+---
+# homebrew_install_path: /usr/local
+# homebrew_brew_bin_path: /usr/local/bin
+
+homebrew_installed_packages:
+  - ansible
+  - trash
+  - fish
+  - tmux
+  - ssh-copy-id
+
+# homebrew_upgrade_all_packages: no
+
+homebrew_taps:
+  - caskroom/cask
+
+homebrew_cask_apps:
+  - 1password
+  - a-better-finder-rename
+  - appcleaner
+  - coderunner
+  - dash
+  - dropbox
+  - droplr
+  - firefox
+  - google-chrome
+  - jdownloader
+  - keka
+  - macvim
+  - numi
+  - openemu
+  - sequel-pro
+  - sizeup
+  - sketch
+  - skype
+  - slack
+  - spotify
+  - sublime-text3
+  - textwrangler
+  - transmission
+  - transmit
+  - tunnelblick
+  - vagrant
+  - virtualbox
+  - vlc
+  - vmware-fusion
+  - whatsapp
+  - xact
+  - xld
+
+# homebrew_cask_appdir: /Applications
+
+homebrew_use_brewfile: false
+# homebrew_brewfile_dir: '~'
